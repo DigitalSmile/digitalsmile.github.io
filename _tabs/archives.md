@@ -1,5 +1,6 @@
 ---
 layout: archives
 icon: fas fa-archive
-order: 3
+order: 6
+title: Архив
 ---
