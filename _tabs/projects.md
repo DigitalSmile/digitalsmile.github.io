@@ -5,7 +5,6 @@ order: 1
 title: Проекты
 ---
 
-
 <style>
   #projects #post-list div .post-preview::before {
     content: none;
@@ -31,8 +30,8 @@ title: Проекты
             <p class="card-text content">Проектирую и создаю ферму по аналогии с настоящими стойками датацентра.</p>
           </div>
           <div class="card-footer">
-            <a href="" class="text-muted card-link">Концепт <i class="fa fa-up-right-from-square fa-xs"></i></a>
-            <a href="" class="text-muted card-link">Серия постов <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="/" class="text-muted card-link">Концепт <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="/categories/rp4-farm/" class="text-muted card-link">Серия постов <i class="fa fa-up-right-from-square fa-xs"></i></a>
           </div>
         </div>
       </div>
@@ -43,8 +42,8 @@ title: Проекты
             <p class="card-text content">Пишу библиотеку, которая упрощает работу с нативным кодом в современных версиях Java.</p>
           </div>
           <div class="card-footer">
-            <a href="" class="text-muted card-link">Код на гитхабе <i class="fa fa-up-right-from-square fa-xs"></i></a>
-            <a href="" class="text-muted card-link">Пример применения <i class="fa fa-up-right-from-square fa-xs"></i></a>        
+            <a href="https://github.com/DigitalSmile/native-memory-processor" class="text-muted card-link">Код на гитхабе <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="https://github.com/DigitalSmile/gpio" class="text-muted card-link">Пример применения <i class="fa fa-up-right-from-square fa-xs"></i></a>
           </div>
         </div>
       </div>
@@ -57,11 +56,11 @@ title: Проекты
             <p class="card-text content">Пытаюсь стать хорошим публичным спикером по работе и вне ее.</p>
           </div>
           <div class="card-footer">
-            <a href="" class="text-muted card-link">Выступления <i class="fa fa-up-right-from-square fa-xs"></i></a>
-            <a href="" class="text-muted card-link">Мои заметки <i class="fa fa-up-right-from-square fa-xs"></i></a>        
+            <a href="/speaking/" class="text-muted card-link">Выступления <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="/categories/public-speaking/" class="text-muted card-link">Мои заметки <i class="fa fa-up-right-from-square fa-xs"></i></a>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
 </div>

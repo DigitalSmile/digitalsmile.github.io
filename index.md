@@ -52,7 +52,7 @@ category: "home-page"
             <p class="card-text content">Проектирую и создаю ферму по аналогии с настоящими стойками датацентра.</p>
           </div>
           <div class="card-footer">
-            <a href="" class="text-muted card-link">Концепт <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="/" class="text-muted card-link">Концепт <i class="fa fa-up-right-from-square fa-xs"></i></a>
             <a href="/categories/rp4-farm/" class="text-muted card-link">Серия постов <i class="fa fa-up-right-from-square fa-xs"></i></a>
           </div>
         </div>
