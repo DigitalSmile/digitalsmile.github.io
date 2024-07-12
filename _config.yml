@@ -118,10 +118,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: digitalsmile/digitalsmile.github.io/ #<gh-username>/<repo>
-    repo_id: R_kgDOMT4avg
-    category: General
-    category_id: DIC_kwDOMT4avs4CgtxL
+    repo: "digitalsmile/digitalsmile.github.io/" #<gh-username>/<repo>
+    repo_id: "R_kgDOMT4avg"
+    category: "General"
+    category_id: "DIC_kwDOMT4avs4CgtxL"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
