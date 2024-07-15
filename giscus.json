@@ -1,8 +1,5 @@
 {
   "origins": [
     "https://digitalsmile.github.io"
-  ],
-  "originsRegex": [
-    "https://digitalsmile.github.io/posts/[a-zA-Z0-9-]+/"
   ]
 }
