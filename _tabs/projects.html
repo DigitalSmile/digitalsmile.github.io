@@ -1,0 +1,98 @@
+---
+layout: page
+icon: fas fa-tarp
+order: 1
+title: Проекты
+---
+
+<style>
+  #projects #post-list div .post-preview::before {
+    content: none;
+  }
+  #projects h5, #projects .content {
+    margin-top: 0 !important;
+  }
+  #projects a {
+    text-decoration: none;
+    border-bottom: none;
+  }
+  #post-list .row+.row {
+    margin-top: 1.5rem;
+  }
+  article img {
+    width: 100%;
+    height: auto;
+  }
+  a.popup {
+    margin: 0 !important;
+  }
+
+</style>
+<div id="projects">
+  <div id="post-list" class="container">
+    <div class="row">
+      <div class="col mb-3 mb-sm-0">
+        <div class="card-wrapper card post-preview h-100">
+          <img src="/assets/img/farm.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ферма на RaspberryPi</h5>
+            <p class="card-text content">Проектирую и создаю ферму по аналогии с настоящими стойками датацентра.</p>
+          </div>
+          <div class="card-footer">
+            <a href="/farm/" class="text-muted card-link">Проект <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="/categories/rp4-farm/" class="text-muted card-link">Серия постов <i class="fa fa-up-right-from-square fa-xs"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3 mb-sm-0">
+        <div class="card-wrapper card post-preview h-100">
+          <img src="/assets/img/nmp.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Библиотека Java 22+ FFM API</h5>
+            <p class="card-text content">
+              Пишу библиотеку, которая упрощает работу с нативным кодом в современных версиях Java.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/DigitalSmile/native-memory-processor" class="text-muted card-link">Код на гитхабе <i class="fa fa-up-right-from-square fa-xs"></i></a>
+            <a href="https://github.com/DigitalSmile/gpio" class="text-muted card-link">Пример применения <i class="fa fa-up-right-from-square fa-xs"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3 mb-sm-0">
+        <div class="card-wrapper card post-preview h-100">
+          <img src="/assets/img/gpio.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Библиотека Java 22+ по работе с GPIO</h5>
+            <p class="card-text content">
+              Библиотека по работе с GPIO на новой версии Java, работающая с распространенными интерфейсами (I2C, SPI, PWM, Raw pins и т.д.).
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/DigitalSmile/gpio" class="text-muted card-link">Код на гитхабе <i class="fa fa-up-right-from-square fa-xs"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3 mb-sm-0">
+        <div class="card-wrapper card post-preview h-100">
+          <img src="/assets/img/hexagon.png" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Библиотека Java 17+ Hexagon Grid</h5>
+            <p class="card-text content">
+              Пишу библиотеку, которая умеет быстро строить гриды из шестиугольников с различными комбинациями.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/DigitalSmile/hexagon" class="text-muted card-link">Код на гитхабе <i class="fa fa-up-right-from-square fa-xs"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
